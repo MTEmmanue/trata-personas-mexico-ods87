@@ -3,7 +3,7 @@
 
 [![Power BI](https://img.shields.io/badge/Dashboard-Power%20BI-F2C811?style=flat&logo=microsoftpowerbi&logoColor=black)](https://app.powerbi.com/view?r=eyJrIjoiNjhhNzVkM2MtN2YxZC00YTQ5LWJlYjItZTQyZmIxOGE3ZDhiIiwidCI6IjNjOTA3NjUxLWQ4YzYtNGNhNi1hOGE0LTZhMjQyNDMwZTY1MyIsImMiOjR9)
 [![R](https://img.shields.io/badge/Data%20Wrangling-R%20Language-276DC3?style=flat&logo=r&logoColor=white)](https://www.r-project.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 Dashboard analítico e interactivo diseñado para la exploración, diagnóstico y monitoreo del delito de **Trata de Personas en México**. El proyecto se alinea de forma estricta con la **Agenda 2030 de la ONU**, abordando el **Objetivo de Desarrollo Sostenible (ODS) 8** (Trabajo decente y crecimiento económico) bajo la **Meta 8.7**, orientada a la eliminación de las formas contemporáneas de esclavitud y explotación.
 
