@@ -5,7 +5,7 @@
 [![R](https://img.shields.io/badge/Data%20Wrangling-R%20Language-276DC3?style=flat&logo=r&logoColor=white)](https://www.r-project.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Dashboard analítico e interactivo diseñado para la exploración, diagnóstico y monitoreo del delito de **Trata de Personas en México**. El proyecto se alinea de forma estricta con la **Agenda 2030 de la ONU**, abordando el **Objetivo de Desarrollo Sostenible (ODS) 8** (Trabajo decente y crecimiento económico) bajo la **Meta 8.7**, orientada a la eliminación de las formas contemporáneas de esclavitud y explotación[cite: 1].
+Dashboard analítico e interactivo diseñado para la exploración, diagnóstico y monitoreo del delito de **Trata de Personas en México**. El proyecto se alinea de forma estricta con la **Agenda 2030 de la ONU**, abordando el **Objetivo de Desarrollo Sostenible (ODS) 8** (Trabajo decente y crecimiento económico) bajo la **Meta 8.7**, orientada a la eliminación de las formas contemporáneas de esclavitud y explotación.
 
 👉 **[Acceder al Dashboard Interactivo en Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiNjhhNzVkM2MtN2YxZC00YTQ5LWJlYjItZTQyZmIxOGE3ZDhiIiwidCI6IjNjOTA3NjUxLWQ4YzYtNGNhNi1hOGE0LTZhMjQyNDMwZTY1MyIsImMiOjR9)**
 
@@ -18,32 +18,32 @@ Dashboard analítico e interactivo diseñado para la exploración, diagnóstico 
 
 La solución busca generar información estratégica para tomadores de decisiones y organizaciones de derechos humanos, a través de los siguientes ejes de análisis:
 *   **Perfiles demográficos vulnerables:** Distribución de casos por sexo y rangos de edad.
-*   **Evolución temporal:** Análisis del volumen y evolución de la incidencia delictiva mensual y anual histórica[cite: 1].
-*   **Distribución geográfica:** Densidad y distribución geográfica del impacto delictivo a nivel de entidades federativas[cite: 1].
+*   **Evolución temporal:** Análisis del volumen y evolución de la incidencia delictiva mensual y anual histórica.
+*   **Distribución geográfica:** Densidad y distribución geográfica del impacto delictivo a nivel de entidades federativas.
 
 ---
 
 ## 📂 Estructura del Repositorio
 
-El repositorio sigue las mejores prácticas de arquitectura de proyectos de datos para garantizar la modularidad y reproducibilidad del pipeline[cite: 1]:
+El repositorio sigue las mejores prácticas de arquitectura de proyectos de datos para garantizar la modularidad y reproducibilidad del pipeline:
 
 ```text
 trata-personas-mexico-ods87/
 │
 ├── data/
-│   ├── raw/                  # Dataset original crudo del SESNSP (Latin1)[cite: 1]
-│   └── processed/            # Dataset limpio, transformado y estructurado por el script de R[cite: 1]
+│   ├── raw/                  # Dataset original crudo del SESNSP (Latin1)
+│   └── processed/            # Dataset limpio, transformado y estructurado por el script de R
 │
 ├── scripts/
-│   └── 01_data_cleaning.R    # Pipeline automatizado de Data Wrangling en R[cite: 1]
+│   └── 01_data_cleaning.R    # Pipeline automatizado de Data Wrangling en R
 │   └── 02_time_series.R       # Descomposición STL y Modelado Predictivo (Holt-Winters)
 │
 ├── dashboard/
-│   └── reporte_trata_v1.pbix # Archivo ejecutable del Dashboard de Power BI[cite: 1]
+│   └── reporte_trata_v1.pbix # Archivo ejecutable del Dashboard de Power BI
 │
-├── .gitignore                # Reglas de exclusión para archivos temporales e históricos[cite: 1]
-├── LICENSE                   # Licencia de código abierto MIT[cite: 1]
-└── README.md                 # Documentación principal del proyecto[cite: 1]
+├── .gitignore                # Reglas de exclusión para archivos temporales e históricos
+├── LICENSE                   # Licencia de código abierto MIT
+└── README.md                 # Documentación principal del proyecto
 
 ```
 
@@ -111,8 +111,8 @@ El proyecto se elaboró en el marco de la asignatura Visualización de Datos, co
 **Desarrollado por el Equipo 7** - Licenciatura en Ingeniería en Ciencia de Datos, Universidad Veracruzana.
 
 ```
-* MUÑOZ TAPIA EMMANUEL DE JESUS 
-* ROMERO BONILLA JUAN PABLO  /
-* SALDAÑA CONDE HECTOR 
+ MUÑOZ TAPIA EMMANUEL DE JESUS 
+ ROMERO BONILLA JUAN PABLO  /
+ SALDAÑA CONDE HECTOR 
 
 ```
