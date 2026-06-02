@@ -66,7 +66,7 @@ trata-personas-mexico-ods87/
 ---
 
 
-## ⚙️ Pipeline de Ingeniería de Datos
+## ⚙️ Pipeline de Datos
 
 La fuente primaria proviene del **Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP)** de México (*Víctimas de Delitos del Fuero Común*). Debido a que la base se publica en un formato ancho (*wide format*) optimizado para tareas administrativas, el script `01_data_cleaning.R` realiza de forma automatizada las siguientes fases de transformación:
 
