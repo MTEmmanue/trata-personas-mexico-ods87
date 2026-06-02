@@ -86,9 +86,14 @@ El entregable final optimizado se exporta en la ruta `data/processed/dataset_com
 
 
 ---
+**Este dashboard forma parte de un trabajo académico desarrollado en la Universidad Veracruzana, dentro de la Facultad de Estadística e Informática, correspondiente a la Licenciatura en Ingeniería de Ciencia de Datos.
+El proyecto se elaboró en el marco de la asignatura Visualización de Datos, con el propósito de aplicar técnicas analíticas y de representación gráfica para la comprensión y comunicación de fenómenos complejos.**
 
 **Desarrollado por el Equipo 7** - Licenciatura en Ingeniería en Ciencia de Datos, Universidad Veracruzana.
 
 ```
+* MUÑOZ TAPIA EMMANUEL DE JESUS 
+* ROMERO BONILLA JUAN PABLO  /
+* SALDAÑA CONDE HECTOR 
 
 ```
