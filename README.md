@@ -13,11 +13,10 @@ Plataforma analítica e interactiva diseñada para la exploración, diagnóstico
 
 ## 📌 Objetivos Analíticos
 
-A través del modelo **5W1H**, la solución responde a las siguientes interrogantes críticas para tomadores de decisiones estratégicas y organizaciones de derechos humanos[cite: 1]:
-*   **¿Quiénes? (Who):** Identificación de perfiles demográficos vulnerables mediante la distribución por sexo y rangos de edad[cite: 1].
-*   **¿Cuándo? (When):** Análisis del volumen y evolución de la incidencia delictiva mensual y anual histórica[cite: 1].
-*   **¿Dónde? (Where):** Densidad y distribución geográfica del impacto delictivo a nivel de entidades federativas[cite: 1].
-*   **¿Qué? (What):** Desglose del fenómeno conforme a la clasificación delictiva institucional (modalidad, subtipo y bien jurídico afectado)[cite: 1].
+La solución busca generar información estratégica para tomadores de decisiones y organizaciones de derechos humanos, a través de los siguientes ejes de análisis:
+*   **Perfiles demográficos vulnerables:** Distribución de casos por sexo y rangos de edad.
+*   **Evolución temporal:** Análisis del volumen y evolución de la incidencia delictiva mensual y anual histórica[cite: 1].
+*   **Distribución geográfica:** Densidad y distribución geográfica del impacto delictivo a nivel de entidades federativas[cite: 1].
 
 ---
 
