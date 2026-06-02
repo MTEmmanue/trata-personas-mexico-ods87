@@ -36,6 +36,7 @@ trata-personas-mexico-ods87/
 │
 ├── scripts/
 │   └── 01_data_cleaning.R    # Pipeline automatizado de Data Wrangling en R[cite: 1]
+│   └── 02_time_series.R       # Descomposición STL y Modelado Predictivo (Holt-Winters)
 │
 ├── dashboard/
 │   └── reporte_trata_v1.pbix # Archivo ejecutable del Dashboard de Power BI[cite: 1]
@@ -64,6 +65,7 @@ trata-personas-mexico-ods87/
 
 ---
 
+
 ## ⚙️ Pipeline de Ingeniería de Datos
 
 La fuente primaria proviene del **Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP)** de México (*Víctimas de Delitos del Fuero Común*). Debido a que la base se publica en un formato ancho (*wide format*) optimizado para tareas administrativas, el script `01_data_cleaning.R` realiza de forma automatizada las siguientes fases de transformación:
@@ -86,7 +88,21 @@ La fuente primaria proviene del **Secretariado Ejecutivo del Sistema Nacional de
 
 El entregable final optimizado se exporta en la ruta `data/processed/dataset_completo_limpio.csv` para alimentar de manera directa el modelo relacional del dashboard.
 
+Análisis de Series de Tiempo y Forecasting
 
+El script 02_time_series.R ejecuta un estudio estadístico avanzado para comprender y proyectar la estructura del fenómeno penal[cite: 1]:
+
+    Descomposición STL (Seasonal and Trend using Loess): Desglosa de forma matemática la serie histórica para aislar y analizar de manera independiente la tendencia de fondo, la estacionalidad periódica y el residuo irregular[cite: 1].
+
+    Modelado Holt-Winters (ETS - A,Ad,A): Implementa un modelo de suavizado exponencial con tendencia aditiva amortiguada (damped trend) y estacionalidad aditiva[cite: 1].
+
+        Parámetros estimados: Nivel con baja reactividad al ruido de corto plazo (α=0.0062) y una estructura estacional rígidamente persistente y cíclica (γ=0.0001)[cite: 1].
+
+        Justificación de la Amortiguación (ϕ=0.9488): Modera la tendencia de la previsión a largo plazo, evitando proyecciones infinitas o desproporcionadas y garantizando un comportamiento realista acorde a la naturaleza delictiva[cite: 1].
+
+        Métricas de Rendimiento: El ajuste logró un RMSE entrenado de 29.51 y un MAPE de 37.89%, valores competitivos dada la alta volatilidad histórica del registro criminal[cite: 1].
+
+    Anclaje de Nodos: Se programó una transición visual continua entre el cierre histórico observado de la serie y el vector de pronóstico futuro para mitigar desfases visuales en el gráfico del lienzo, proyectando los escenarios de los años 2026 y 2027[cite: 1].
 
 ---
 **Este dashboard forma parte de un trabajo académico desarrollado en la Universidad Veracruzana, dentro de la Facultad de Estadística e Informática, correspondiente a la Licenciatura en Ingeniería de Ciencia de Datos.
