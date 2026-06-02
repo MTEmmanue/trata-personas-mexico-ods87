@@ -104,7 +104,10 @@ El script 02_time_series.R ejecuta un estudio estadístico avanzado para compren
 
     Anclaje de Nodos: Se programó una transición visual continua entre el cierre histórico observado de la serie y el vector de pronóstico futuro para mitigar desfases visuales en el gráfico del lienzo, proyectando los escenarios de los años 2026 y 2027[cite: 1].
 
-![Forecasting](figures/time_series_trata_personas.png)
+<p align="center">
+  <img src="figures/time_series_trata_personas.png" alt="Forecasting" width="800"/>
+</p>
+
 ---
 **Este dashboard forma parte de un trabajo académico desarrollado en la Universidad Veracruzana, dentro de la Facultad de Estadística e Informática, correspondiente a la Licenciatura en Ingeniería de Ciencia de Datos.
 El proyecto se elaboró en el marco de la asignatura Visualización de Datos, con el propósito de aplicar técnicas analíticas y de representación gráfica para la comprensión y comunicación de fenómenos complejos.**
