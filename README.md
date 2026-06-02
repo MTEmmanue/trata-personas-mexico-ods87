@@ -10,8 +10,8 @@ Dashboard analítico e interactivo diseñado para la exploración, diagnóstico 
 👉 **[Acceder al Dashboard Interactivo en Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiNjhhNzVkM2MtN2YxZC00YTQ5LWJlYjItZTQyZmIxOGE3ZDhiIiwidCI6IjNjOTA3NjUxLWQ4YzYtNGNhNi1hOGE0LTZhMjQyNDMwZTY1MyIsImMiOjR9)**
 
 ---
-![alt text](Capture_Tendencia_Dash.png)
-![alt text](Capture_sector_dash.png)
+![Tendencia](Capture_Tendencia_Dash.png)
+![Sectores mas vulnerables](Capture_sector_dash.png)
 
 
 ## 📌 Objetivos Analíticos
