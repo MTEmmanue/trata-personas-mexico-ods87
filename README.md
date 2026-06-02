@@ -83,17 +83,7 @@ La fuente primaria proviene del **Secretariado Ejecutivo del Sistema Nacional de
 
 El entregable final optimizado se exporta en la ruta `data/processed/dataset_completo_limpio.csv` para alimentar de manera directa el modelo relacional del dashboard.
 
----
 
-## 🧪 Evaluación de Usabilidad (SUS)
-
-La interfaz gráfica y el flujo de navegación analítica fueron validados mediante la metodología estandarizada **System Usability Scale (SUS)** aplicada a un panel representativo de usuarios. La plataforma superó los umbrales de aceptabilidad de la industria, asegurando una mínima fricción cognitiva y garantizando la persistencia interactiva de los filtros cruzados sin generar errores de renderizado de datos en los paneles demográficos o espaciales.
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
 
 ---
 
