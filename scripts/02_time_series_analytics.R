@@ -8,7 +8,7 @@ library(forecast)
 library(ggplot2)
 
 # 1. Cargar el dataset optimizado para la Serie de Tiempo (ODS 8.7)
-ruta_procesada <- "C:/Users/Emmanuel/Documents/trata-personas-mexico-ods87/data/processed/dataset_serie_tiempo.csv"
+ruta_procesada <- "ruta/a/tu/dataset/procesado/datos_mensuales.csv" # Cambia esta ruta a tu dataset procesado
 datos_mensuales <- read_csv(ruta_procesada)
 
 # 2. Estructurar el objeto de Serie de Tiempo (TS)

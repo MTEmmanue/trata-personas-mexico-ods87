@@ -8,7 +8,7 @@ library(tidyr)
 library(lubridate)
 
 # 1. Carga de datos crudos
-ruta_cruda <- "C:/Users/Emmanuel/Documents/trata-personas-mexico-ods87/data/raw/Estatal-Víctimas-2015-2025_ene2026.csv"
+ruta_cruda <- "ruta/a/tu/dataset/crudo/datos_trata_personas.csv" # Cambia esta ruta a tu dataset crudo
 df_crudo <- read_csv(ruta_cruda, locale = locale(encoding = "Latin1"))
 
 # 2. Conversión de estructuras y Pivotaje
@@ -79,8 +79,8 @@ df_serie_tiempo <- df_limpio %>%
 # =================================================================
 
 # Rutas de salida para tus carpetas locales
-ruta_completo     <- "C:/Users/Emmanuel/Documents/trata-personas-mexico-ods87/data/processed/dataset_completo_limpio.csv"
-ruta_serie_tiempo <- "C:/Users/Emmanuel/Documents/trata-personas-mexico-ods87/data/processed/dataset_serie_tiempo.csv"
+ruta_completo     <- "ruta/a/tu/dataset/procesado/dataset_completo.csv" # Cambia esta ruta a tu carpeta de salida para el dataset completo
+ruta_serie_tiempo <- "ruta/a/tu/dataset/procesado/dataset_serie_tiempo.csv" # Cambia esta ruta a tu carpeta de salida para el dataset de serie de tiempo
 
 # Escribir ambos archivos CSV
 write_csv(df_limpio, ruta_completo)
