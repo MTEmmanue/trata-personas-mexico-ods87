@@ -1,9 +1,3 @@
-Aquí tienes un diseño de **README.md** completamente profesional, redactado bajo los estándares de la industria y adaptado con precisión milimétrica a tu proyecto, tus rutas locales y los requisitos del ODS 8.7.
-
-Este documento está escrito en formato Markdown listo para que lo copies, crees tu archivo `README.md` en la raíz del repositorio y lo pegues.
-
----
-
 ```markdown
 # Monitoreo Analítico de la Trata de Personas en México (ODS 8.7)
 
