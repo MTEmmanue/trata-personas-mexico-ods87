@@ -11,7 +11,7 @@ Dashboard analítico e interactivo diseñado para la exploración, diagnóstico 
 
 ---
 ![Tendencia](figures/Capture_Tendencia_Dash.png)
-![Sectores mas vulnerables](figures/Capture_sector_dash.png)
+![Sectores mas vulnerables](figures/Capture_sectores_dash.png)
 
 
 ## 📌 Objetivos Analíticos
