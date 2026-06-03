@@ -9,7 +9,7 @@ Dashboard analítico e interactivo diseñado para la exploración, diagnóstico 
 
 👉 **[Accede al Dashboard Interactivo en Power BI Service](https://app.powerbi.com/groups/me/reports/cf824733-1889-4832-9823-7e307b6a974f/caac81ec458e6724d0f4?ctid=3c907651-d8c6-4ca6-a8a4-6a242430e653&experience=power-bi&bookmarkGuid=1eb2cafc-4f7c-4cd6-9a03-8a7c344740dc)**
 
----
+
 ![Tendencia](figures/Capture_Tendencia_Dash.png)
 ![Sectores mas vulnerables](figures/Capture_sectores_dash.png)
 
