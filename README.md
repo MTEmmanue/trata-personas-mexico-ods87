@@ -7,7 +7,7 @@
 
 Dashboard analítico e interactivo diseñado para la exploración, diagnóstico y monitoreo del delito de **Trata de Personas en México**. El proyecto se alinea de forma estricta con la **Agenda 2030 de la ONU**, abordando el **Objetivo de Desarrollo Sostenible (ODS) 8** (Trabajo decente y crecimiento económico) bajo la **Meta 8.7**, orientada a la eliminación de las formas contemporáneas de esclavitud y explotación.
 
-👉 **[Acceder al Dashboard Interactivo en Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiNjhhNzVkM2MtN2YxZC00YTQ5LWJlYjItZTQyZmIxOGE3ZDhiIiwidCI6IjNjOTA3NjUxLWQ4YzYtNGNhNi1hOGE0LTZhMjQyNDMwZTY1MyIsImMiOjR9)**
+👉 **[Accede al Dashboard Interactivo en Power BI Service](https://app.powerbi.com/groups/me/reports/cf824733-1889-4832-9823-7e307b6a974f/caac81ec458e6724d0f4?ctid=3c907651-d8c6-4ca6-a8a4-6a242430e653&experience=power-bi&bookmarkGuid=1eb2cafc-4f7c-4cd6-9a03-8a7c344740dc)**
 
 ---
 ![Tendencia](figures/Capture_Tendencia_Dash.png)
@@ -39,10 +39,9 @@ trata-personas-mexico-ods87/
 │   └── 02_time_series.R       # Descomposición STL y Modelado Predictivo (Holt-Winters)
 │
 ├── dashboard/
-│   └── reporte_trata_v1.pbix # Archivo ejecutable del Dashboard de Power BI
+│   └── Dashboard_Trata_de_Personas_2015_2025.pbix # Archivo ejecutable del Dashboard de Power BI
 │
 ├── .gitignore                # Reglas de exclusión para archivos temporales e históricos
-├── LICENSE                   # Licencia de código abierto MIT
 └── README.md                 # Documentación principal del proyecto
 
 ```
