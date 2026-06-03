@@ -115,5 +115,4 @@ El proyecto se elaboró en el marco de la asignatura Visualización de Datos, co
  MUÑOZ TAPIA EMMANUEL DE JESUS 
  ROMERO BONILLA JUAN PABLO  
  SALDAÑA CONDE HECTOR 
-
 ```
